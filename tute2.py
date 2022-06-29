@@ -1,3 +1,6 @@
+from calendar import c
+
+
 name= "akshitha"
 age= 22
 #output
@@ -10,3 +13,8 @@ name1 = input("enetr your name")
 age1= int(input("enetr your age "))
 print(name1)
 print(age1)
+
+#def cal():
+        #print("cal is "+name)
+
+#cal
