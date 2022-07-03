@@ -48,5 +48,5 @@ def create_egg():
     x = randrange(10, 740)
     y = 40
     new_egg = c.create_oval(x, y, x+egg_width, y+egg_height, fill=next(color_cycle), width=0)
-    eggs.append()
+    eggs.append(new_egg)
     root.after(egg_interval, create_egg)
