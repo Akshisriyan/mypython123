@@ -44,8 +44,6 @@ lives_text = c.create_text(canvas_width-10, 10, anchor="ne", font=game_font, fil
 
 
 eggs = []
-
-
 def create_egg():
     x = randrange(10, 740)
     y = 40
