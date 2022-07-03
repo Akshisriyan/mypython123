@@ -41,3 +41,6 @@ score_text = c.create_text(10, 10, anchor="nw", font=game_font, fill="darkblue",
 
 lives_remaining = 3
 lives_text = c.create_text(canvas_width-10, 10, anchor="ne", font=game_font, fill="darkblue", text="Lives: "+ str(lives_remaining))
+
+
+eggs = []
