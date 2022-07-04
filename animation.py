@@ -50,3 +50,13 @@ def create_egg():
     new_egg = c.create_oval(x, y, x+egg_width, y+egg_height, fill=next(color_cycle), width=0)
     eggs.append(new_egg)
     root.after(egg_interval, create_egg)
+
+
+
+def egg_dropped(egg):
+    eggs.remove(egg)
+    c.delete(egg)
+    lose_a_life()
+    if lives_remaining == 0:
+        messagebox.showinfo("Game Over!", "Final Score: "+ str(score))
+        root.destroy()
