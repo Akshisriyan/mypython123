@@ -10,3 +10,8 @@ from keras.applications.resnet50 import preprocess_input, decode_predictions
 from keras.preprocessing import image
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import confusion_matrix
+
+
+from keras_preprocessing.image import ImageDataGenerator
+from keras.utils import np_utils
+from keras.datasets import mnist
